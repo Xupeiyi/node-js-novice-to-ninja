@@ -1,5 +1,53 @@
 [
-{"response_code":0,"results":[{"category":"Science: Gadgets","type":"multiple","difficulty":"medium","question":"Which company designed the &quot;Betamax&quot; video cassette format?","correct_answer":"Sony","incorrect_answers":["Panasonic","LG","Fujitsu"]}]},
-{"response_code":0,"results":[{"category":"General Knowledge","type":"multiple","difficulty":"hard","question":"What type of dog is &#039;Handsome Dan&#039;, the mascot of Yale University?","correct_answer":"Bulldog","incorrect_answers":["Yorkshire Terrier","Boxer","Pug"]}]},
-{"response_code":0,"results":[{"category":"Science: Computers","type":"multiple","difficulty":"medium","question":"Which programming language was developed by Sun Microsystems in 1995?","correct_answer":"Java","incorrect_answers":["Python","Solaris OS","C++"]}]},
+    {
+        "response_code": 0,
+        "results": [
+            {
+                "category": "Science: Gadgets",
+                "type": "multiple",
+                "difficulty": "medium",
+                "question": "In what year was the Oculus Rift revealed to the public through a Kickstarter campaign?",
+                "correct_answer": "2012",
+                "incorrect_answers": [
+                    "2010",
+                    "2011",
+                    "2013"
+                ]
+            }
+        ]
+    },
+    {
+        "response_code": 0,
+        "results": [
+            {
+                "category": "General Knowledge",
+                "type": "multiple",
+                "difficulty": "medium",
+                "question": "Who is a co-founder of music streaming service Spotify?",
+                "correct_answer": "Daniel Ek",
+                "incorrect_answers": [
+                    "Sean Parker",
+                    "Felix Miller",
+                    "Michael Breidenbruecker"
+                ]
+            }
+        ]
+    },
+    {
+        "response_code": 0,
+        "results": [
+            {
+                "category": "Science: Computers",
+                "type": "multiple",
+                "difficulty": "medium",
+                "question": "Generally, which component of a computer draws the most power?",
+                "correct_answer": "Video Card",
+                "incorrect_answers": [
+                    "Hard Drive",
+                    "Processor",
+                    "Power Supply"
+                ]
+            }
+        ]
+    }
 ]
