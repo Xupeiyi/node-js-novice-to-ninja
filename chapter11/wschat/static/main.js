@@ -5,7 +5,7 @@ for (let n in dom) dom[n] = document.getElementById(n);
 // set user's name
 dom.name.value = decodeURIComponent(
     location.search.trim().slice(1, 1 + window.cfg.nameLen)
-) ||  'Anonymouse' + Math.floor(Math.random() * 99999);
+) ||  'Anonymous' + Math.floor(Math.random() * 99999);
 
 wsInit(`ws://${location.hostname}:${window.cfg.wsPort}`);
 
